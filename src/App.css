@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700");
+
+body{
+  background: linear-gradient(45deg,#007ACC, #9240ff);
+  font-family: 'Roboto Mono', monospace;
+}
+
+p{
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.ttmsA_6 p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.resultados p{
+  margin-left: 8px;
+}
+
+.resultados h1{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card{
+  margin: 16px;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.check-select{
+  display: flex;
+  margin-bottom: 16px;
+}
+
+
+.check-select + .form-check{
+  margin-left: 16px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 576px) { 
+  html {
+    font-size: 14px;
+  }
+
+  .ttmsA_6 {
+    width: 75%
+  }
+ }
+
+@media (min-width: 768px) { 
+  html {
+    font-size: 15px;
+  }
+
+  .ttmsA_6 {
+    width: 80%
+  }
+
+ }
+
+@media (min-width: 992px) { 
+  html {
+    font-size: 16px;
+} 
+.ttmsA_6 {
+  width: 90%
+}
+}
+
+@media (min-width: 1200px) { 
+  html {
+    font-size: 17px;
+} 
+.ttmsA_6 {
+  width: 100%
+}
+}
